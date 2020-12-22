@@ -12,7 +12,7 @@ int fpb(int x, int y) {
 	return res;
 }
 
-int fpb_rekursif(int x, int y) {
+int fpb_rekursif(int x, int y) { // algoritma euclid
 	
 	if(x % y == 0) return y;
 	return fpb_rekursif(y, x % y);
